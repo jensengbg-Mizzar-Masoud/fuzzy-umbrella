@@ -1,0 +1,143 @@
+
+body{
+    background-image: url(../bild/cover.webp);
+    color:black;
+    font-size: 90%; 
+    font-family:arial,'Lucida Sans Unicode';
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px auto;
+    width: 75%;
+}
+
+/*------------- MAIN HEADER ----------------*/
+a{
+    text-decoration: none;
+}
+
+a:hover, a:active{color: #505192;}
+
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+.mainheader nav{
+    background-color: #0a0a0a;
+    height: 40px;
+    border-radius: 5px;
+
+}
+.mainheader nav ul {
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+}
+.mainheader nav ul li {
+    display: inline;
+
+}
+.mainheader a:link, .mainheader a:visited {
+    color: silver;
+    padding: 10px 50px;
+    display: inline-block;
+}
+.mainheader a:hover, .mainheader a:active {
+    background-color: #505192; 
+}
+
+/*---------------- main contant -----------------*/
+
+
+.top-content{
+    background-color: silver;
+    padding: 3%;
+    margin-top: 3%;  
+    border-radius: 5px;
+}
+.post-img{
+    width: 100%;
+    margin: 30px auto;
+}
+
+.post-info{
+    font-size: 25px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: auto; 
+}
+
+.post-content{
+    display: inline;
+}
+
+.footer{
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #692d55;
+    height: 60px;
+    border-radius: 5px;
+}
+.footer p{
+    text-align: center;
+    color: white;
+    width: 90%;    
+}
+/*---------------- Inlog  -----------------*/
+
+
+.inlog {
+    background-color: lightblue;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    align-content: center;
+    opacity:0.9 ;
+}
+
+h3 {
+    margin: 10px auto;
+    margin-bottom: 20px;
+    color: #333;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-password input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 80%;
+    padding: 20px;
+    background-color: #030303;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+section a {
+    display: block;
+    margin-top: 10px;
+    color: #5a0433;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+section a:hover {
+    color: #b85708;
+}
